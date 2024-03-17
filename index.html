@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="./src/css/responsive.css" media="screen and (max-width: 768px)"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto+Serif:opsz,wght@8..144,600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./src/css/style.css">
+        <link rel="stylesheet" href="./src/css/responsivo.css">
+        <script src="./src/js/jquery.js"></script>
+        
+        <!-- TÍTULO -->       
+       
+        <title>Danilo Ferreira - Dev Jr . UX Jr . eUI Jr</title>
+        <link rel="icon" type="image/x-icon" href="./src/assets/logomarcadf.png">
+    </head>
+
+    <body class="vsc-initialized" style="overflow: initial;"> 
+
+        <header id="topo">
+
+            <!-- MENU RESPONSIVO -->
+
+            <div class="container">
+    
+                <div class="menu-section">
+                    
+                    <div class="menu-toggle">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                    </div>  
+                    
+                    <!-- BARRA DE NAVEGAÇÃO -->
+                    
+                    <nav class="nav">
+
+                        <div class="nav-list-container">
+
+                            <div>
+                                <img class="imagemdf" src="./src/assets/logomarcadf.png" alt="Logo marca DF">
+                            </div>
+
+                            <button class="hamburger"></button>
+                            
+                            <ul class="nav-list">
+                                <li><a class="botoes" href="#home">HOME</a></li>
+                                <li><a class="botoes" href="#sobremim">SOBRE MIM</a></li>
+                                <li><a class="botoes" href="#portfolio">PORTFOLIO</a></li>
+                                <li><a class="botoes" href="#curriculo">CURRICULO</a></li>
+                            </ul>
+
+                        </div>
+
+                    </nav>
+
+                </div> 
+
+            </div>
+
+            <!-- APRESENTAÇÃO DO PROFISSIONAL -->
+
+            <div id="apresentacao-container">
+                <h2>OLÁ, MEU NOME É</h2>
+                <h1>Danilo Ferreira</h1>
+                <h3>Produtor Multimídia . Dev Jr . UX Jr . UI Jr</h3>
+                <li><a href="#portfolio" class="botao">CONHEÇA O MEU TRABALHO</a></li>
+            </div>
+
+        </header>
+
+        <!-- SOBRE MIM -->
+
+        <section id="sobremim">
+
+            <div class="titulodoPerfil-container">
+                <h2>SOBRE <span style="color: hsl(198, 87%, 61%)">MIM</span></h2>
+            </div>
+            
+            <p id="informacoesdoPerfil-container">&ensp; Olá, meu nome é Danilo Ferreira, natural de Salvador - Bahia.
+                Formado em Produção Multimídia pela UNIJORGE (Universidade Jorge Amado).
+                Estudante de UX/UI Design e graduando em Análise e Desenvolvimento 
+                de Sistemas na UCSAL (Universidade Católica do Salvador).
+            </p>
+        
+        </section>
+
+        <!-- PROJETOS DESENVOLVIDOS -->
+
+        <section id="portfolio">
+            <div class="portfolio-container">
+
+                <p id="paragrafo">PROJETOS <span style="color:hsl(198, 87%, 61%)">DESENVOLVIDOS</span></p>
+                    
+                <ul>
+                    <li><a href="#todos" class="botaoportfolio">Todos</a></li>
+                    <li><a href="#galeria2" class="botaoportfolio">Web</a></li>
+                    <li><a href="#galeria2" class="botaoportfolio">Mobile</a></li>
+                    <li><a href="#galeria2" class="botaoportfolio">Ux/Ui</a>
+                </ul>
+
+                <br>
+
+                <!-- GALERIAS -->
+
+                <section id="galeria1">
+                    <div class="galeriatodos-container">Todos</div>
+                        
+                    <p class="subtitulo-todos">Confira os projetos que venho desenvolvendo.</p>
+
+                    <br>
+                        
+                        
+                    <div class="galeria-container">
+                        <a class="imagemgaleria" href="https://www.behance.net/gallery/117458233/Estudo-de-Caso-Help-Med" target="_blank"><img src="./src/assets/helpmed.png" alt="Help Med" class="imagemgaleria"></a>
+                        <a class="imagemgaleria" href="https://www.behance.net/gallery/153373159/Mundo-do-leitor-(aplicativo-de-livros)-case-UXUI" target="_blank"><img src="./src/assets/mundodoleitor.png" alt="Mundodoleitor" class="imagemgaleria"></a> 
+                        <a class="imagemgaleria" href="https://www.figma.com/file/t7afeCNAnPlgg9MIStqBFR/Desafio%3A-Projeto-Photography" target="_blank"><img src="./src/assets/photography.png" alt="Photography" class="imagemgaleria"></a>
+                    </div>
+
+                </section>
+
+            </div>
+
+        </section>
+
+        <section id="portfolio">
+            <div class="portfolio-container">
+                
+                <ul>
+                    <li><a href="#galeria3" class="botaoportfolio">Todos</a></li>
+                    <li><a href="#galeria3" class="botaoportfolio">Web</a></li>
+                    <li><a href="#galeria3" class="botaoportfolio">Mobile</a></li>
+                    <li><a href="#galeria3" class="botaoportfolio">Ux/Ui</a></li>
+                </ul>
+
+                <br>
+
+                <section id="galeria2">
+                    <div class="galeriatodos">Web</div>
+                        
+                    <p class="subtitulo-web">Sites e interfaces desenvolvidas.</p>
+
+                    <br>
+                        
+                        
+                    <div id="galeria-container"></div>
+                            
+                        
+                </section>
+
+            </div>    
+
+        </section>
+
+        <section id="portfolio">
+            <div class="portfolio-container">
+                
+                <ul>
+                    <li><a href="#galeria4" class="botaoportfolio">Todos</a></li>
+                    <li><a href="#galeria4" class="botaoportfolio">Web</a></li>
+                    <li><a href="#galeria4" class="botaoportfolio">Mobile</a></li>
+                    <li><a href="#galeria4" class="botaoportfolio">Ux/Ui</a></li>
+                </ul>
+
+                <br>
+
+                <section id="galeria3">
+                    <div class="galeriatodos">Mobile</div>
+                        
+                    <p class="subtitulo-mobile">Mobile interfaces.</p>
+
+                    <br>
+                        
+                        
+                    <div id="galeria-container"></div>
+                            
+                </section>
+
+            </div>    
+
+        </section>
+            
+        <section id="portfolio">
+            <div class="portfolio-container">
+                
+                <ul>
+                    <li><a href="#galeria1" class="botaoportfolio">Todos</a></li>
+                    <li><a href="#galeria1" class="botaoportfolio">Web</a></li>
+                    <li><a href="#galeria1" class="botaoportfolio">Mobile</a></li>
+                    <li><a href="#galeria1" class="botaoportfolio">Ux/Ui</a></li>
+                </ul>
+
+                <br>
+
+                <section id="galeria4">
+
+                    <div class="galeriatodos">Ux/Ui</div>
+                        
+                    <p class="subtitulo-uxui">Experiências e interfaces do usuário.</p>
+
+                    <br>
+                        
+                        
+                    <div class="galeria-container">
+
+                        <a href="https://www.behance.net/gallery/117458233/Estudo-de-Caso-Help-Med" target="_blank"><img src="./src/assets/helpmed.png" alt="Help Med" class="imagemgaleria"></a>
+                        <a href="https://www.behance.net/gallery/153373159/Mundo-do-leitor-(aplicativo-de-livros)-case-UXUI" target="_blank"><img src="./src/assets/mundodoleitor.png" alt="Mundodoleitor" class="imagemgaleria"></a>
+                        <a href="https://www.figma.com/file/t7afeCNAnPlgg9MIStqBFR/Desafio%3A-Projeto-Photography" target="_blank"><img src="./src/assets/photography.png" alt="Photography" class="imagemgaleria"></a>
+
+                    </div>
+                </section>
+
+            </div>    
+
+        </section>
+            
+
+        <!-- MEU CURRICULO -->
+
+        <section id="curriculo">
+
+            <div class="container">
+                <div>
+                    <h2>MEU <span style="color:hsl(198, 87%, 61%)">CURRÍCULO</span></h2>
+                </div>
+
+                <div id="topbutton">
+                    <i class="fa fa-arrow-up"></i>
+                </div>
+
+                <div>
+                    <h3>Danilo Nascimento dos Santos Ferreira</h3>
+                    <p>Produtor Multimídia, UX/UI Jr e Dev Jr</p>
+                </div>
+
+                <div id="estrutura1">
+                    <p>Salvador/Bahia - Brasil</p>
+                </div>
+
+                <div id="estrutura2">
+                    <p>danilo.nsferreira@gmail.com</p>
+                </div>
+
+                <div id="estrutura3">
+                    <p>(71) 9.9673-7822</p>
+                </div>
+                
+                <div>
+                    <h3><span style="color: hsl(198, 87%, 61%)">Formação Acadêmica</span></h3>
+                    <h4>Nivel superior em Análise e Desenvolvimento de Sistemas (Em andamento).</h4>
+                    <p>Universidade Católica do Salvador (UCSAL)</p>
+                        
+                    <h4>Nivel superior completo em Tecnologia em  Produção Multimídia (2009-2011)</h4>
+                    <p>Universidade Jorge Amado (UNIJORGE)</p>
+                </div>    
+
+                <div>
+                    <h3><span style="color: hsl(198, 87%, 61%)">Experiência Profissional</span></h3>
+                    
+                    <h4>Case de Portfólio - Help Med</h4>
+                    <p>A princípio, nosso grupo recebeu uma hipótese de desafio que sugeria viabilizar uma oportunidade de contribuir para a criação de uma solução de socorro médico, 
+                    onde o usuário pudesse encontrar facilidade de atendimento em situações emergenciais. 
+                    Projeto realizado para fins de estudo em desafio orientado por Paulo Siqueira. </p>
+
+                    <h4>Case de Portfólio - Mundo do leitor</h4>
+                    <p>Após alguns meses, cosneguimos chegar a um resultado surpreendente, que nos possbilitou
+                    explorar todo o conhecimento de UX/UI, durante a conclusão do projeto. Com um hábito, a leitura, 
+                    tivemos varios palpites de acordo com nossas vivências e cotidiano observado de pessoas que leem 
+                    e não leem livros. A partir disso, concluimos ue juntando o cotidiano como as redes sociais e a 
+                    leitura poderia gerar um incentivo aos escritores, aos leitores, e até mesmo aos que futuramente
+                    pensarão  em ter algo por indicação e alguém.
+                    Então, compreendemos de maneira mais profunda o problema que nos foi apresentado, bem como seu usuário
+                    e o impacto que a solução geraria. Contudo sabemos que existem questões que podem ser exploradas, como
+                    um aperfeiçoamento da usabilidade, o melhor entendimento do nosso MVP (Mínimo Produto Viável) para a partir
+                    disso formular um plano de negócios.</p>
+                </div>
+
+                <div>
+                    <h3><span style="color: hsl(198, 87%, 61%)">Certificados</span></h3>
+
+                    <h4>Udemy</h4>
+                    <p>Figma: Design colaborativo do básico ao protótipo responsivo - 2020</p>
+                        
+                    <h4>Udemy</h4>
+                    <p>UX & Design thinking: Experiência do usuário nos negócios - 2021</p>
+                        
+                    <h4>Udemy</h4>
+                    <p>Curso completo de Design de Interface do Usuário - 2021</p>
+
+                    <h4>Udemy</h4>
+                    <p>JavaScript: Aprenda JavaScript em 7 dias + projetos reais. Em andamento.</p>
+                        
+                    <h4>Escola Britânica de Artes Criativas e Tecnologia - EBAC</h4>
+                    <p>Jornada Dev: HTML & CSS - 2022</p>
+                        
+                    <h4>BKB Code</h4>
+                    <p>Curso feito em parceria da Burguer King Brasil + Kenzie abordando HTML, CSS & JAVA SCRIPT - 2022</p>
+
+                    <h4>Kenzie Academy</h4>
+                    <p>Kenzie Academy: Introdução à HTML, CSS E JavaScript - 2024</p>
+   
+                </div>
+                    
+            </div>
+
+        </section>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- REDES SOCIAIS -->
+
+        <section id="redessociais">
+
+            <div id="icones-container">
+                <a href="https://www.behance.net/danniloferreira"><img src="./src/assets/behance.png" alt="behance"></a>
+                <a href="https://github.com/DaniloNSF"><img src="./src/assets/github.png" alt="github"></a>
+                <a href="https://www.instagram.com/daniloferreira.dev/"><img src="./src/assets/instagram.png" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/in/danilo-ferreira-39a025107/."><img src="./src/assets/linkedin.png" alt="linkedin"></a>
+                <a href="https://medium.com/@danilo-nsferreira"><img src="./src/assets/medium.png" alt="medium"></a>
+            </div>
+
+        </section>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <!-- RODAPÉ -->
+
+        <footer id="footer-container">
+            <img class="imagemdf-rodape" src="./src/assets/logomarcadf.png" alt="Logo marca DF">
+            <p><a href="#navbar"> &copy 2024 <span style="color:hsl(198, 87%, 61%)">DANILO FERREIRA</span></a> - Todos os direitos reservados.</p>
+        </footer> 
+        
+        
+
+
+
+        <div>
+            <script>
+                $(window).scroll(function(){
+                    if($(this).scrollTop()){
+                        $('#topbutton').fadeIn();
+                    }else{
+                        $('#topbutton').fadeOut();
+                    }
+                });
+
+                $("#topbutton").click(function(){
+                    $("html,body").animate({scrollTop:0},1000);
+                });
+            </script>
+        </div>
+
+
+        
+        <script src="./src/css/menu.js"></script>
+    </body>
+</html>

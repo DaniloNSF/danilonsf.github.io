@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto sans-serif;
+    color: black;
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 h2 h3{
+    font-family: sans-serif;
+    color: #fff;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background:#000;
+    font-size: 1.2rem;
+    transition: background 500ms ease; 
+    height: 120px;
+}
+
+.nav-list-container{
+
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagemdf{
+    width: 183px;
+    height: 93px;
+    left: 32px;
+    top: 7px;
+}
+
+.hamburger{
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-transform:uppercase;
+}
+
+.nav-list li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-list li a{
+    display:flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: Roboto;
+    color: #fff;
+    padding: 30px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.nav-list li .botoes:hover{
+    color: hsl(198, 87%, 61%);
+    transition: 0.3s all;
+}
+
+/* APRESENTAÇÃO DO PROFISSIONAL */
+
+#topo #apresentacao-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url("../assets/apresentação.png");
+    background-repeat: no-repeat;
+    background-color: #000;
+    text-align: center;
+    font-family: Roboto, Roboto Serif, Inter;
+    height: 100vh;
+    list-style: none;
+    bottom: 20px;
+}
+
+#topo #apresentacao-container h1{
+    text-align: center;
+    color: white;
+    font-family: Roboto serif;
+    font-size: 150px;
+}
+
+#topo #apresentacao-container h2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    padding-bottom: 80px;
+}
+
+#topo #apresentacao-container h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    height: 60px;
+    font-family: Roboto;
+    text-align: center;
+}
+
+.botao{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #FFF;
+    border: 3px solid #FFF;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: background 500ms ease;
+}
+
+#topo .botao:hover{
+    cursor: pointer;
+    background:rgb(232, 226, 226);
+    list-style: none;
+}
+
+/* SOBRE MIM */
+
+#sobremim{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../assets/sobremim.png");
+    text-align: center;
+    height: 250px;
+}
+
+#sobremim .titulodoPerfil-container{
+    text-align: center;
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 25px;
+    padding-top: 28px;
+}
+
+#sobremim #informacoesdoPerfil-container{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 30px;
+    font-family: 'Roboto';
+}
+
+/* PROJETOS DESENVOLVIDOS */
+
+#portfolio{
+    display: inline-block;
+    background-image: url("../assets/projetosdesenvolvidos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    height: 850px;
+    font-family: 'Roboto';
+} 
+
+#portfolio .portfolio-container #paragrafo{
+    font-family: Roboto;
+    color: #FFF;
+    text-align: center;
+    font-size: 34px;
+    padding-top: 30px;
+}
+
+#portfolio #subtitulo{
+    font-size: 20px;
+}
+
+#portfolio ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#portfolio ul li{
+    display: flex;
+    color: #FFF;
+    padding-top: 30px;
+}
+
+#portfolio ul li .botaoportfolio{
+    display:flex;
+    font-family: sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 50px;
+}
+
+.portfolio-container ul li .botaoportfolio{
+    justify-content: space-around;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 35px;
+    font-size: 1.2rem;
+    transition: background 500ms ease;
+    width: 100px;
+    height: 45px;
+    align-items: center;
+}
+
+.portfolio-container .botaoportfolio:hover{
+    cursor: pointer;
+    background:rgb(232, 226, 226);
+}
+
+.subtitulo-todos{
+    font-size: 18px;
+}
+
+.subtitulo-web{
+    font-size: 18px;
+}
+
+.subtitulo-mobile{
+    font-size: 18px;
+}
+
+.subtitulo-uxui{
+    font-size: 18px;
+}
+
+/* GALERIA */
+
+.fotosgeral{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.galeriatodos-container{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+
+.galeria-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.imagemgaleria{
+    display: block;
+    width: 180px;
+    height: 140px;
+    border-radius: 6px;
+}
+
+/* CURRICULO PROFISSIONAL */
+
+#curriculo h2{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+h3{
+    font-size: 20px;
+    padding: 11px;
+    font-family: Roboto;
+}
+
+h4{
+    font-size: 18px;
+    padding: 13px;
+    font-family: Roboto;
+}
+
+p{
+    padding: 12px;
+    font-family: sans-serif;
+}
+
+hr{
+    width: 1220px;
+}
+
+#estrutura1 .local p{
+    position: absolute;
+    display:inline-block;
+    padding: 10px;
+}
+
+#estrutura2 .email p{
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+}
+
+#estrutura3 .contato p{
+    position: absolute;
+    display:inline-block;
+    padding: 2px;
+}
+
+/* REDES SOCIAIS */
+
+#redessociais #icones-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#icones-container img{
+    display: flex;
+    justify-content:space-around;
+}
+
+/* RODAPÉ */
+
+.imagemdf-rodape{
+    width: 120px;
+    height: 70px;
+}
+
+#footer-container{
+    display:inline-block;
+    position:absolute;
+    background-color: black;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Roboto";
+    color: #FFF;
+    width: 100%;
+    text-decoration: none;
+    padding-bottom: 10px 0;
+    font-weight: bold;
+}
+
+#footer-container a{
+    display:inline-block;
+    background-color: black;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Roboto";
+    color: #FFF;
+    text-decoration: none;
+    padding-bottom: 10px 0;
+    font-weight: bold;
+}
+
+#topbutton{
+    padding: 10px 10px;
+    background: hsl(198, 87%, 61%);
+    color: #FFF;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    display: none;
+    border-radius: 5px;
+}
+
+
+
+
